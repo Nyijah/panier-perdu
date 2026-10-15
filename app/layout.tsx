@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import { SITE_URL } from "@/lib/config";
+import Footer from "@/components/Footer";
 
 const titre = "Panier Perdu — Récupère tes paniers abandonnés";
 const description =
@@ -38,7 +39,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="fr">
-      <body>{children}</body>
+      <body>
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }
