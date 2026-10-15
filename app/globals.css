@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --color-papier: #f6f1e7;
+  --color-encre: #1b1a17;
+  --color-brique: #c2410c;
+  --color-sapin: #0b5d4b;
+  --color-trait: #d9d1c0;
+  --font-titre: ui-serif, "Iowan Old Style", "Palatino Linotype", Georgia, serif;
+  --font-texte: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto,
+    sans-serif;
+}
+
+html {
+  background: var(--color-papier);
+  color: var(--color-encre);
+  font-family: var(--font-texte);
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  min-height: 100dvh;
+}
