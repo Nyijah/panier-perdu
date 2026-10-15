@@ -25,6 +25,11 @@ export default function Cgv() {
         de réduction facultatif sur la seconde relance, et affiche le chiffre
         d&apos;affaires récupéré.
       </p>
+      <p>
+        Le service est réservé aux professionnels, c&apos;est-à-dire aux
+        personnes qui exploitent une boutique en ligne dans le cadre de leur
+        activité. En souscrivant, tu déclares agir à titre professionnel.
+      </p>
 
       <H2>3. Offre fondatrice</H2>
       <p>
@@ -67,10 +72,9 @@ export default function Cgv() {
 
       <H2>7. Droit de rétractation</H2>
       <p>
-        Si tu agis en tant que consommateur, tu disposes d&apos;un délai légal
-        de rétractation de 14 jours à compter de la souscription. La garantie
-        de remboursement ci-dessus s&apos;applique dans tous les cas, y compris
-        si tu agis en tant que professionnel.
+        Le service étant réservé aux professionnels, le droit légal de
+        rétractation prévu pour les consommateurs ne s&apos;applique pas. Seule
+        la garantie de remboursement de l&apos;article 6 s&apos;applique.
       </p>
 
       <H2>8. Responsabilité</H2>
@@ -87,11 +91,10 @@ export default function Cgv() {
         confidentialité du site.
       </p>
 
-      <H2>10. Médiation et droit applicable</H2>
+      <H2>10. Litiges et droit applicable</H2>
       <p>
-        En cas de litige, contacte-nous d&apos;abord à {E.email}. Si tu es
-        consommateur, tu peux ensuite recourir gratuitement au médiateur de la
-        consommation : {E.mediateur}
+        En cas de litige, contacte-nous d&apos;abord à {E.email} pour chercher
+        une solution amiable.
       </p>
       <p>
         Les présentes conditions sont soumises au droit français. À défaut de
